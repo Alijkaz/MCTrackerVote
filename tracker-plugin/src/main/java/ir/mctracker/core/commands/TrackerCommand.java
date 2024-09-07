@@ -22,7 +22,7 @@ public class TrackerCommand implements CommandExecutor {
                 }
             }
         } else {
-            sender.sendMessage(Util.colorize(Messages.PREFIX + "&cEntered arg is Not Valid!"));
+            sender.sendMessage(Util.colorize(Messages.PREFIX + "&cThe argument is not right. Try again."));
         }
         return true;
     }

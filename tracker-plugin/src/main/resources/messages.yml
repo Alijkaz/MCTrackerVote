@@ -1,6 +1,6 @@
 # Main plugin's Prefix
 # Set to "" for disabling prefix
-prefix: "&2[&aVote&2] "
+prefix: "&2[&aMCTrackerVote&2] "
 
 # Will send this message when player executes '/vote' command
 # » PlaceHolders «
@@ -8,21 +8,21 @@ prefix: "&2[&aVote&2] "
 # - {vote_url} = Your unique vote URL based on  server_id that you set above
 # - {player} = Player name
 vote-messages:
-  - "&bSalam &3{player}"
-  - "&bBaraye Vote Dadan Be Server Az Link Zir Estefade Konid &7(1 Vote per Day)"
+  - "&bHi &3{player}&b!"
+  - "&bTo vote this server, just the link below: &7(1 Vote per Day)"
   - "&a{vote_url}"
 
 # No permission message
 # » PlaceHolders «
 # - {prefix} = Plugin prefix specified above
-no-permission: "{prefix}&cShoma Dastresi Kafi Baraye Ejraye In Dastoor Ro Nadarid."
+no-permission: "{prefix}&cYou don't have enough permissions to do this."
 
 # Console is not allowed to run this command message
 # » PlaceHolders «
 # - {prefix} = Plugin prefix specified above
-console-not-allowed: "{prefix}&cIn Command Baraye Player Hast."
+console-not-allowed: "{prefix}&cThis command is player based."
 
 # Will be sent when arguments are invalid
 # » PlaceHolders «
 # - {prefix} = Plugin prefix specified above
-invalid-arg: "{prefix}&cIn Dastoor Vojod Nadarad."
+invalid-arg: "{prefix}&cThe command you entered, doesn't exist. Try again."

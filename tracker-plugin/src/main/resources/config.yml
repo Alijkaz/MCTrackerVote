@@ -37,8 +37,8 @@ vote-needs-permission: false
 # » PlaceHolders «
 #   - {player} = Player name
 reward-actions:
-  - "[message] &a{player}&e, Shoma &bVote&e Dadid Va Jayeze Gereftid!"
-  - "[broadcast] &2{player} &abe server vote dad!"
+  - "[message] &a{player}&e, You &bvoted&e and now you won a reward!"
+  - "[broadcast] &2{player} &ajust voted this server!"
   - "[console] give {player} apple 1"
 
 
